@@ -31,7 +31,6 @@ start:;
 
 	while (yourNumber <= 21)
 	{
-		
 		cout << "Cards value: " << yourNumber << endl;
 		cout << "do you want to take another card? [y/n]" << endl;
 		cin >> choice;
