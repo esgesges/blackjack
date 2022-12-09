@@ -77,7 +77,8 @@ start:;
 			} 
 			else
 			{
-				cout << "you won!!" << endl;
+				cout << "you won!  +" << (bet * 2) << "fishes" << endl;
+				fishes += (bet * 2);
 				cout << "enemy number: " << enemyNumber << endl;
 				goto exit_loop;
 			}
